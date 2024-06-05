@@ -3300,6 +3300,14 @@ input, select, textarea {
 				content: '\f0c9';
 			}
 
+			.header-image {
+
+				height: 100%; /* Maintain aspect ratio */
+				width: 15vw; /* Adjust the width as needed */
+				vertical-align: middle; /* Align with the text */
+				margin-right: 10px; /* Space between the image and text */
+			}
+
 		#header nav {
 			-moz-flex: 0 1 auto;
 			-webkit-flex: 0 1 auto;
