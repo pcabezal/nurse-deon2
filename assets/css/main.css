@@ -340,6 +340,7 @@ input, select, textarea {
     height: 100%; /* Match the height of the header */
     display: flex; /* Use flexbox for alignment */
     align-items: center; /* Center items vertically */
+	justify-content: space-between;
 }
 
 	.inner {
@@ -2841,7 +2842,7 @@ input, select, textarea {
 			}
 
 		.features > a.alt {
-			background: rgba(63, 74, 170, 0.95);
+			background: rgba(63, 74, 170, 0.7);
 			padding: 3rem;
 			width: 47rem;
 		}
@@ -3309,8 +3310,8 @@ input, select, textarea {
 
 			.header-image {
 
-				height: 95%; 
-				width: 15vw; /* Adjust the width as needed */
+				height: 100%; 
+				width: auto; /* Adjust the width as needed */
 				vertical-align: middle; /* Align with the text */
 				margin-right: 10px; /* Space between the image and text */
 			}
@@ -3443,7 +3444,7 @@ input, select, textarea {
 		}
 
 		#header {
-			height: 44px;
+			height: 6.25rem;
 			line-height: 44px;
 		}
 
