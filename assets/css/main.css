@@ -336,10 +336,17 @@ input, select, textarea {
 
 /* Inner */
 
+.header-inner {
+    height: 100%; /* Match the height of the header */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
 	.inner {
 		margin: 0 auto;
 		max-width: calc(100% - 10rem);
 		width: 80rem;
+		
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3232,7 +3239,7 @@ input, select, textarea {
 		background: #3f4aaa;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
-		height: 4.25rem;
+		height: 6.25rem;
 		left: 0;
 		line-height: 4.25rem;
 		position: fixed;
@@ -3302,7 +3309,7 @@ input, select, textarea {
 
 			.header-image {
 
-				height: 100%; /* Maintain aspect ratio */
+				height: 95%; 
 				width: 15vw; /* Adjust the width as needed */
 				vertical-align: middle; /* Align with the text */
 				margin-right: 10px; /* Space between the image and text */
