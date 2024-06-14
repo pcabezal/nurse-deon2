@@ -2291,16 +2291,22 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
+/* 		#3f4aaa */
+
 		.icon.solid:before {
 			font-weight: 900;
 		}
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			color: #3f4aaa;
 		}
 
 		.icon > .label {
 			display: none;
+		}
+		.icon.facebook {
+			color: #4267B2; /* Facebook blue */
 		}
 
 /* Image */
