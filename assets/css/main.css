@@ -3239,7 +3239,7 @@ input, select, textarea {
 /* Header */
 
 	body {
-		padding-top: 4.25rem;
+		padding-top: 6.2rem;
 	}
 
 	#header {
@@ -3625,8 +3625,9 @@ input, select, textarea {
 		align-items: flex-end;
 		cursor: default;
 		height: 40rem;
-		position: relative;
+		position: relative;	
 	}
+
 
 		#banner input, #banner select, #banner textarea {
 			color: #ffffff;
@@ -3735,6 +3736,7 @@ input, select, textarea {
 			visibility: hidden;
 			width: 100%;
 			z-index: 0;
+			overflow: hidden;
 		}
 
 			#banner > article:before {
