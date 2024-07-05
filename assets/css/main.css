@@ -2362,6 +2362,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		
 
 /* List */
 
@@ -3004,6 +3005,7 @@ input, select, textarea {
 
 				.mini-posts.small article .image img {
 					width: auto;
+					max-width: 100%;
 				}
 
 	}
