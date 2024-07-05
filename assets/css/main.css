@@ -3352,6 +3352,8 @@ input, select, textarea {
 				#header nav > ul > li {
 					line-height: inherit;
 					padding: 0;
+					font-size: larger;
+					font-weight: 800;
 				}
 
 					#header nav > ul > li.opener a:before {
@@ -3376,7 +3378,7 @@ input, select, textarea {
 					#header nav > ul > li a {
 						color: rgba(255, 255, 255, 0.75);
 						display: block;
-						line-height: 1rem;
+						line-height: 2rem;
 						margin-left: 0.5rem;
 						padding: 0.75rem 1rem;
 						text-decoration: none;
