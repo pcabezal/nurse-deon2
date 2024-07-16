@@ -3356,7 +3356,7 @@ input, select, textarea {
 				#header nav > ul > li {
 					line-height: inherit;
 					padding: 0;
-					font-size: larger;
+					font-size: x-large;
 					font-weight: 800;
 				}
 
@@ -3441,14 +3441,22 @@ input, select, textarea {
 						color: #ffffff !important;
 					}
 
+	#nav-small {
+		display: none;
+	}			
+
 	@media screen and (max-width: 980px) {
 
-		nav {
+		#nav {
 			display: none;
 		}
 
+		#nav-small {
+			display: inline;
+		}
+
 		#header a[href="#navPanel"] {
-			display: block;
+			display: none;
 		}
 
 	}
