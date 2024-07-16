@@ -2562,14 +2562,15 @@ input, select, textarea {
 			-ms-align-items: center;
 			align-items: center;
 			margin-bottom: 2rem;
+			padding-right: 6rem;
 		}
-
+/* 
 			ul.contact-icons li:first-child {
 				-moz-align-items: -moz-flex-start;
 				-webkit-align-items: -webkit-flex-start;
 				-ms-align-items: -ms-flex-start;
 				align-items: flex-start;
-			}
+			} */
 
 			ul.contact-icons li.icon:before {
 				background: #41494e;
@@ -2604,6 +2605,7 @@ input, select, textarea {
 
 				ul.contact-icons li {
 					width: 50%;
+					padding-right: 3rem;
 				}
 
 		}
@@ -2616,6 +2618,7 @@ input, select, textarea {
 
 				ul.contact-icons li {
 					width: 100%;
+					padding-right: 2rem;
 				}
 
 		}
@@ -2825,27 +2828,28 @@ input, select, textarea {
 			}
 
 		.features > a.accent1 {
-			background: #3f4aaa;
+			background: #d4b20b;
+			
 		}
 
 			.features > a.accent1:hover {
-				background: #4853bb;
+				background: #ebcd38;
 			}
 
 		.features > a.accent2 {
-			background: #78319c;
+			background: #3f4aaa;
 		}
 
 			.features > a.accent2:hover {
-				background: #8737af;
+				background: #5761ba;
 			}
 
 		.features > a.accent3 {
-			background: #41494e;
+			background: #b02907;
 		}
 
 			.features > a.accent3:hover {
-				background: #4d565c;
+				background: #bd4628;
 			}
 
 		.features > a.alt {
@@ -3043,7 +3047,7 @@ input, select, textarea {
 		-webkit-align-items: -webkit-stretch;
 		-ms-align-items: -ms-stretch;
 		align-items: stretch;
-		margin: 4rem 0;
+		margin: 0rem 0;
 	}
 
 		.posts > * {
@@ -3872,27 +3876,39 @@ input, select, textarea {
 
 /* Headline */
 
-.headline {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
-	flex-direction: row; /* Stack sections horizontally */
-    justify-content: space-between; /* Space out sections evenly */
-    width: 100%;
-	max-height: 40rem;
-}
+	.headline {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		flex-direction: row; /* Stack sections horizontally */
+		justify-content: space-between; /* Space out sections evenly */
+		width: 100%;
+		max-height: 40rem;
+	}
 
-.headline img {
-    max-width: 100%; /* Prevents the image from being wider than its container */
-    max-height: 100%; /* Prevents the image from being taller than its container */
-    width: auto; /* Maintain aspect ratio */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensures the image fits within the container while maintaining its aspect ratio */
-}
+	.headline img {
+		max-width: 100%; /* Prevents the image from being wider than its container */
+		max-height: 100%; /* Prevents the image from being taller than its container */
+		width: auto; /* Maintain aspect ratio */
+		height: auto; /* Maintain aspect ratio */
+		object-fit: contain; /* Ensures the image fits within the container while maintaining its aspect ratio */
+	}
+	
+		@media screen and (max-width: 1280px) {
 
+			.headline {
+				padding-top: .05rem;
+			}
 
+		}
 
+		@media screen and (max-width: 736px) {
+
+			.headline {
+				padding-top: 2.5rem;
+			}
+		}
 
 /* Main */
 
@@ -4119,7 +4135,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 7rem 0 5rem 0 ;
+		padding: 3rem 0 2rem 0 ;
 		background: #f3f3f3;
 		border-top: 1px solid #e0e0e0;
 	}
@@ -4151,15 +4167,15 @@ input, select, textarea {
 		#footer .copyright {
 			border-top: 1px solid #e0e0e0;
 			color: #aeaeae;
-			margin: 4rem 0;
-			padding-top: 4rem;
+			margin: 1rem 0;
+			padding-top: 1rem;
 			text-align: center;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4rem 0 2rem 0 ;
+				padding: 1rem 0 .5rem 0 ;
 			}
 
 				#footer .content > section {
@@ -4193,8 +4209,8 @@ input, select, textarea {
 					}
 
 			#footer .copyright {
-				margin-top: 2rem;
-				padding-top: 3rem;
+				margin-top: .5rem;
+				padding-top: 1rem;
 			}
 
 		}
@@ -4202,7 +4218,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3rem 0 1rem 0 ;
+				padding: 1rem 0 .5rem 0 ;
 			}
 
 				#footer .content > section {
