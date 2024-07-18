@@ -2309,6 +2309,22 @@ input, select, textarea {
 			color: #4267B2; /* Facebook blue */
 		}
 
+		@media screen and (max-width: 1280px) {
+
+			.custom-size {
+				font-size: small;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.custom-size {
+				font-size: small;
+			}
+		}
+
+
 /* Image */
 
 	.image {
@@ -2605,7 +2621,7 @@ input, select, textarea {
 
 				ul.contact-icons li {
 					width: 50%;
-					padding-right: 3rem;
+					padding-right: 1rem;
 				}
 
 		}
@@ -3445,6 +3461,10 @@ input, select, textarea {
 		display: none;
 	}			
 
+	#nav-links {
+		font-size: small;
+	}
+
 	@media screen and (max-width: 980px) {
 
 		#nav {
@@ -4176,6 +4196,7 @@ input, select, textarea {
 		padding: 3rem 0 2rem 0 ;
 		background: #f3f3f3;
 		border-top: 1px solid #e0e0e0;
+		max-width: 100%;
 	}
 
 		#footer .content {
