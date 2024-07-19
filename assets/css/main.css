@@ -3970,6 +3970,7 @@ input, select, textarea {
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			padding-top: 1rem;
 		}
 
 		.friends-container {
@@ -4000,6 +4001,10 @@ input, select, textarea {
 /* 		.friend-box {
 			height: 20rem;
 		} */
+
+		.toggle-image {
+			cursor: pointer;
+		}
 
 /* Main */
 

@@ -31,6 +31,28 @@ function showNextImage() {
 
 setInterval(showNextImage, 5000); // Change image every 5 seconds
 
+/** image toggle on click friends */
+
+document.addEventListener("DOMContentLoaded", function() {
+    const toggleImages = [
+        { id: "toggleImage1", src: ["images/puppetGreenOpen.webp", "images/puppetGreenWail.webp"] },
+        { id: "toggleImage2", src: ["images/puppetOrangeClose.webp", "images/puppetOrangeOpen.webp"] },
+        { id: "toggleImage3", src: ["images/puppetRedClose.webp", "images/puppetRedOpen.webp"] },
+        { id: "toggleImage4", src: ["images/puppetPurpleClose.webp", "images/puppetPurpleWail.webp"] }
+    ];
+
+    toggleImages.forEach(function(image) {
+        const imgElement = document.getElementById(image.id);
+        let currentIndex = 0;
+
+        imgElement.addEventListener("click", function() {
+            currentIndex = (currentIndex + 1) % image.src.length;
+            imgElement.src = image.src[currentIndex];
+        });
+    });
+});
+
+
 // Initialize the first image as visible
 images[currentIndex].classList.add('active');
 
