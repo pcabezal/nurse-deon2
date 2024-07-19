@@ -3963,6 +3963,44 @@ input, select, textarea {
 			}
 		}
 
+
+/* Friends */
+
+		.friends-zone {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.friends-container {
+			display: flex;
+			width: 80%;
+		}
+
+		.friend {
+			max-height: 100%;
+		}
+
+		.centered-article {
+			display: flex;
+			align-items: center !important; /* Center items vertically */
+		}
+
+		article .friend-words {
+			display: flex !important;
+			align-items: center !important; /* Center the content vertically */
+			flex: 1 !important; /* Allow this div to take the remaining space */
+		}
+		
+		article .friend-words .content {
+			display: flex !important;
+			flex-direction: column !important; /* Stack the text and button vertically */
+			align-items: flex-start !important; /* Align the items to the start (left) */
+		}
+/* 		.friend-box {
+			height: 20rem;
+		} */
+
 /* Main */
 
 	#main {
